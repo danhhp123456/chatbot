@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/server.js"
   },
-  "type":"module",
+  "type": "module",
   "author": "danh dam",
   "license": "ISC",
   "dependencies": {
