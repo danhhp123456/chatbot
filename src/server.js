@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 //init web router
 webRouters(app);
 
-let port = process.env.PORT || 8080;
+let port = process.env.PORT || 8082;
 
 app.listen( port,() => {
     console.log("chatbot dang chay o cong: "+port);
