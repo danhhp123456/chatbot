@@ -24,7 +24,7 @@ const chatbotController = {
 
                 // Gets the body of the webhook event
                 let webhook_event = entry.messaging[0];
-                console.log(webhook_event);
+                console.log(webhook_event,'ádasdasdasdsa');
 
 
                 // Get the sender PSID
@@ -86,7 +86,7 @@ function handleMessage(sender_psid, received_message) {
 
         // Create the payload for a basic text message
         response = {
-            "text": `You sent the message: "${received_message.text}". Now send me an image!`
+            "text": `Ban da gui tin nhan la: "${received_message.text}". Bay gio gui minh cai anh!`
         }
     }
 
