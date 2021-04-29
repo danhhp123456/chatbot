@@ -4,14 +4,11 @@ import webRouters from "./routes/web.js";
 import bodyParser from "body-parser";
 import dotenv from 'dotenv'
 dotenv.config();
+let app = express();
 app.use(express.json());
 app.use(express.urlencoded({
   extended: true
 }));
-
-
-
-let app = express();
 
 //config view engine
 viewEngine(app);
