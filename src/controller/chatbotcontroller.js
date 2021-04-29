@@ -14,6 +14,7 @@ const chatbotController = {
 
     postWebhook: (req, res) => {
         let body = req.body;
+        console.log("Nhan dc tin nhan")
 
         // Checks this is an event from a page subscription
         if (body.object === 'page') {
