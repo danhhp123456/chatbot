@@ -1,5 +1,5 @@
 import express from "express";
-import chatbotController from "../controller/chatbotcontroller.js"
+import chatbotController from "../controller/chatbotcontroller"
 let router = express.Router();
 
 let initwebrouters = (app)=> {

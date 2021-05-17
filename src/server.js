@@ -3,16 +3,13 @@ import viewEngine from "./config/viewEngine.js";
 import webRouters from "./routes/web.js";
 import bodyParser from "body-parser";
 import dotenv from 'dotenv'
-dotenv.config();
+require("dotenv").config();
 let app = express();
-app.use(express.json());
-app.use(express.urlencoded({
-  extended: true
-}));
+
 
 //config view engine
 viewEngine(app);
-app.use(bodyParser())
+
 //parser request to json
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
