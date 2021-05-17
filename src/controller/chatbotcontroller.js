@@ -25,7 +25,7 @@ const chatbotController = {
 
                 // Gets the body of the webhook event
                 let webhook_event = entry.messaging[0];
-                console.log(webhook_event,'ádasdasdasdsa');
+                console.log(webhook_event,);
 
 
                 // Get the sender PSID
